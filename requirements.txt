@@ -1,3 +1,4 @@
-
-dotenv
-phi
+streamlit
+requests
+python-dotenv
+phidata
