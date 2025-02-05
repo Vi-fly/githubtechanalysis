@@ -18,7 +18,7 @@ The AI agent follows these steps to analyze a GitHub profile:
 3. **Skill Assessment**: Using LLM models, the agent analyzes the data to extract key technical skills based on repositories, contributions, and coding languages.
 4. **Report Generation**: A summary report is generated to assess the user's technical skills.
 
-![Work Flow](work.png)
+![Work Flow](work.webp)
 
 ## Installation
 
