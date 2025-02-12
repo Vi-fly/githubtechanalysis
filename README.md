@@ -11,7 +11,7 @@ The AI agent is built using **Phidata** for agent development and the **Groq API
 - **Natural Language Processing (NLP)**: Utilize Groq API’s LLM capabilities to process and summarize the GitHub data.
 
 ## How it Works
-The AI agent follows these steps to analyze a GitHub profile:
+The AI agent follows these steps to analyze a GitHub profile:-
 
 1. **Profile Data Fetching**: It scrapes public data from a specified GitHub user’s profile.
 2. **Data Processing**: The fetched data is then processed and structured.
@@ -20,7 +20,7 @@ The AI agent follows these steps to analyze a GitHub profile:
 
 ![Work Flow](work.webp)
 
-## Installation
+## Installation 
 
 1. Clone the repository:
 
