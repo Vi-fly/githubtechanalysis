@@ -4,6 +4,7 @@ import streamlit as st
 from phi.agent import Agent
 from phi.model.groq import Groq
 from dotenv import load_dotenv
+import re
 
 # Load environment variables from .env file
 load_dotenv('py.env')
