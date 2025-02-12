@@ -101,6 +101,7 @@ def main():
                 assessment_str = assessment_str.replace("content=", "", 1)
             
             # Clean up and decode the assessment string for display
+            assessment_str = re.sub(r'name=None.*', '', assessment_str, flags=re.DOTALL)
             assessment_str = assessment_str.encode('utf-8').decode('unicode-escape')  # This will print the returned string assessment
             
             # Display assessment
