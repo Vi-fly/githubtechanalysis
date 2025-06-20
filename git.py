@@ -18,7 +18,7 @@ if not GROQ_API_KEY:
     raise ValueError("Missing GROQ API Key. Please set it in the .env file.")
 
 # Initialize the Groq model
-groq_model = Groq(id="mixtral-8x7b-32768", api_key=GROQ_API_KEY)
+groq_model = Groq(id="llama-3.3-70b-versatile", api_key=GROQ_API_KEY)
 
 # Function to fetch GitHub user details
 def fetch_github_user_details(username: str):
